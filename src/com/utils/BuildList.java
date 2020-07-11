@@ -5,9 +5,9 @@ package com.utils;
  * @Date: 2020/7/9 21:46
  * @description: TODO
  */
-public class BuildNode {
+public class BuildList {
 
-    public static ListNode buildListNode(String s) {
+    public static ListNode build(String s) {
         if (s == null || s.length() < 3)
             return null;
         ListNode root = new ListNode(0);

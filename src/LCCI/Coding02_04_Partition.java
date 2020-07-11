@@ -1,6 +1,6 @@
 package LCCI;
 
-import com.utils.BuildNode;
+import com.utils.BuildList;
 import com.utils.ListNode;
 
 /**
@@ -34,7 +34,7 @@ public class Coding02_04_Partition {
 
     public static void main(String[] args) {
         String s = "[1,4,3,2,5,2]";
-        ListNode head = BuildNode.buildListNode(s);
+        ListNode head = BuildList.build(s);
         Coding02_04_Partition partition = new Coding02_04_Partition();
         ListNode node = partition.partition(head, 3);
     }
